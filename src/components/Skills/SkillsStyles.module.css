@@ -12,6 +12,14 @@
   .skillIcons {
     max-width: 30px;
   }
+
+  hr {
+    width: 200px;
+    height: 1px;
+    border: none;
+    background-color: #fff;
+    margin: 30px auto;
+  }
 }
 
 .skillList {
@@ -23,25 +31,26 @@
   max-width: 26ch;
 }
 
-hr {
-  width: 200px;
-  height: 1px;
-  border: none;
-  background-color: #fff;
-  margin: 30px auto;
-}
+@media (min-width: 800px) {
+  .container {
+    .skillList {
+      max-width: fit-content;
+      gap: 30px;
 
-@media (width >= 800px) {
-  .skillList {
-    max-width: fit-content;
-    gap: 30px;
-
-    p {
-      font-size: 20px;
+      p {
+        font-size: 20px;
+      }
     }
-  }
 
-  hr {
-    width: 300px;
+    hr {
+      width: 300px;
+    }
+
+    .firstHR {
+      width: 700px;
+    }
+    .secondHR {
+      width: 750px;
+    }
   }
 }

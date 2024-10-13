@@ -1,3 +1,11 @@
+import styles from "./FooterStyles.module.css";
+
 export default function Footer() {
-  return <div>Footer</div>;
+  return (
+    <section id="footer" className={styles.container}>
+      <p>
+        &copy; 2024 Derrick Lin <br /> All rights reserved.
+      </p>
+    </section>
+  );
 }

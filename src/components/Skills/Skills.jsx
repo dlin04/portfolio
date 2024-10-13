@@ -36,16 +36,15 @@ export default function Skills() {
         <SkillCard skillImage={tailwindIcon} skillName="Tailwind CSS" />
         <SkillCard skillImage={javascriptIcon} skillName="JavaScript" />
         <SkillCard skillImage={typescriptIcon} skillName="TypeScript" />
-        <SkillCard skillImage={nodeIcon} skillName="Node" />
       </div>
       <hr className={styles.firstHR} />
       <div className={styles.skillList}>
+        <SkillCard skillImage={nodeIcon} skillName="Node" />
         <SkillCard skillImage={reactIcon} skillName="React" />
         <SkillCard skillImage={nextIcon} skillName="Next" />
         <SkillCard skillImage={pythonIcon} skillName="Python" />
         <SkillCard skillImage={javaIcon} skillName="Java" />
-        <SkillCard skillImage={cIcon} skillName="C" />
-        <SkillCard skillImage={cplusplusIcon} skillName="C++" />
+        <SkillCard skillImage={cplusplusIcon} skillName="C / C++" />
       </div>
       <hr className={styles.secondHR} />
       <div className={styles.skillList}>

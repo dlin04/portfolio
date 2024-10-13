@@ -2,27 +2,13 @@
   margin-top: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* along flex direction, in this case, column */
+  justify-content: center;
   gap: 20px;
   text-align: center;
 
   .image {
     max-width: 400px;
     border-radius: 50%;
-  }
-
-  span {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-
-    a {
-      margin: 0;
-
-      img {
-        width: 30px;
-      }
-    }
   }
 
   a {
