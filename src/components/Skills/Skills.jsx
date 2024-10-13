@@ -1,4 +1,5 @@
 import styles from "./SkillsStyles.module.css";
+import PropTypes from "prop-types";
 import htmlIcon from "../../assets/skills/HTML5.png";
 import tailwindIcon from "../../assets/skills/TailwindCSS.png";
 import javascriptIcon from "../../assets/skills/JavaScript.png";
@@ -9,7 +10,6 @@ import nextIcon from "../../assets/skills/Next.png";
 import pythonIcon from "../../assets/skills/Python.png";
 import javaIcon from "../../assets/skills/Java.png";
 import cplusplusIcon from "../../assets/skills/C++.png";
-import cIcon from "../../assets/skills/C.png";
 import mongodbIcon from "../../assets/skills/MongoDB.png";
 import postgreSQLIcon from "../../assets/skills/PostgresSQL.png";
 import gitIcon from "../../assets/skills/Git.png";
@@ -26,6 +26,11 @@ export default function Skills() {
         <p>{skillName}</p>
       </span>
     );
+  };
+
+  SkillCard.propTypes = {
+    skillImage: PropTypes.string.isRequired,
+    skillName: PropTypes.string.isRequired,
   };
 
   return (

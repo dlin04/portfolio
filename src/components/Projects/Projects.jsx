@@ -1,4 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
+import PropTypes from "prop-types";
 import truthsiftIcon from "../../assets/truthsiftIcon.png";
 import chessalyzeIcon from "../../assets/chessalyzeIcon.png";
 import proofpressIcon from "../../assets/proofpressIcon.png";
@@ -26,6 +27,13 @@ export default function Projects() {
         </div>
       </span>
     );
+  };
+
+  ProjectCard.propTypes = {
+    projectGithub: PropTypes.string.isRequired,
+    projectIcon: PropTypes.string.isRequired,
+    projectName: PropTypes.string.isRequired,
+    projectDescription: PropTypes.node.isRequired,
   };
 
   return (
@@ -56,10 +64,10 @@ export default function Projects() {
           <p className={styles.projectDescription}>
             As a frequent player on Chess.com, I developed Chessalyze to offer a
             free alternative for game analysis. Chessalyze is a web application
-            designed to simulate Chess.com's Game Review feature, which is only
-            free once-a-day. The app allows users to upload their chess games,
-            analyze key moments, review move accuracy, and identify mistakes,
-            providing players with valuable insights to improve their
+            designed to simulate Chess.com&apos;s Game Review feature, which is
+            only free once-a-day. The app allows users to upload their chess
+            games, analyze key moments, review move accuracy, and identify
+            mistakes, providing players with valuable insights to improve their
             performance.
             <br />I chose Next.js for this project due to its seamless
             integration of server-side rendering (SSR) and static site

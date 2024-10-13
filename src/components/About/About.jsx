@@ -15,12 +15,13 @@ export default function About() {
         </h1>
         <h2>Student / Aspiring Software Engineer</h2>
         <p className={styles.description}>
-          Hi! I'm a junior at Rensselaer Polytechnic Institute, pursuing a dual
-          major in Computer Science and Mathematics. I have experience with
+          Hi! I&apos;m a junior at Rensselaer Polytechnic Institute, pursuing a
+          dual major in Computer Science and Mathematics. I have experience with
           full-stack web development using Javscript libraries / frameworks.
-          Recently, I've shifted my focus focus towards machine learning and its
-          application in day-to-day life. I'm currently working on creating an
-          end-to-end project utilizing ML techniques for fake news detection.
+          Recently, I&apos;ve shifted my focus focus towards machine learning
+          and its application in day-to-day life. I&apos;m currently working on
+          creating an end-to-end project utilizing ML techniques for fake news
+          detection.
         </p>
         <a href={derricklinResume} target="_blank">
           <button>Resume</button>
