@@ -17,7 +17,11 @@ export default function Projects() {
           <img src={projectIcon} className={styles.projectIcon} />
         </a>
         <div className={styles.projectInfo}>
-          <h2>{projectName}</h2>
+          <h2>
+            <a href={projectGithub} target="_blank">
+              {projectName}
+            </a>
+          </h2>
           {projectDescription}
         </div>
       </span>

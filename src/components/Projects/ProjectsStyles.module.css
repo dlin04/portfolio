@@ -5,12 +5,14 @@
   align-items: center; /* Center child elements horizontally */
   gap: 20px;
   text-align: center;
+  padding: 20px;
 
   span {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
+    gap: 20px;
 
     a {
       color: #3da9fc;
@@ -25,6 +27,30 @@
   padding: 10px;
 }
 
+.projectIcon:hover {
+  transform: scale(1.05);
+}
+
 .projectDescription {
   max-width: 50ch;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (width >= 800px) {
+  .container {
+    span {
+      flex-direction: row;
+      justify-content: flex-start;
+      gap: 30px;
+    }
+  }
+
+  .projectDescription {
+    max-width: 70ch;
+  }
 }

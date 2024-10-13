@@ -17,4 +17,8 @@
     justify-content: center;
     gap: 20px;
   }
+
+  .contactIcon:hover {
+    transform: scale(1.3);
+  }
 }
