@@ -4,6 +4,7 @@ import truthsiftIcon from "../../assets/truthsiftIcon.png";
 import chessalyzeIcon from "../../assets/chessalyzeIcon.png";
 import proofpressIcon from "../../assets/proofpressIcon.png";
 import crosswordgenIcon from "../../assets/crosswordgenIcon.png";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   const ProjectCard = ({
@@ -65,18 +66,12 @@ export default function Projects() {
             As a frequent player on Chess.com, I developed Chessalyze to offer a
             free alternative for game analysis. Chessalyze is a web application
             designed to simulate Chess.com&apos;s Game Review feature, which is
-            only free once-a-day. The app allows users to upload their chess
-            games, analyze key moments, review move accuracy, and identify
-            mistakes, providing players with valuable insights to improve their
-            performance.
-            <br />I chose Next.js for this project due to its seamless
-            integration of server-side rendering (SSR) and static site
-            generation (SSG), which boosts performance when processing large
-            chess game datasets. Next.js also provides excellent routing
+            only free once-a-day. Here, users can pull their games from
+            Chess.com and analyze key moments, review move accuracy, and
+            identify mistakes and store these reviews.
+            <br />I chose Next.js for this project due to its simplified routing
             capabilities, making it easier to manage the dynamic content and
-            user interactions within the app. Additionally, its full-stack
-            features simplify API development, ensuring a smooth and responsive
-            user experience.
+            user interactions within the app.
             <br />
             This is an active project.
             <br />
@@ -101,11 +96,8 @@ export default function Projects() {
             to foster a vibrant community of content creators and encourage
             active participation.
             <br />
-            My team and I were able to create the basic structure of
-            authentication with MetaMask and post creation / deletion, but did
-            not manage to integrate the crytocurrency aspect. As I learn more
-            about web development and gain experience with blockchain
-            technologies, I plan to recreate this project.
+            As I learn more about web development and gain experience with
+            blockchain technologies, I plan to recreate this project.
           </p>
         }
       />
@@ -120,39 +112,12 @@ export default function Projects() {
             grids. The algorithm itself was originally an assignment from my
             CSCI 1200 Data Structures and Algorithm class, and in the contest,
             my algorithm placed 90th percentile in a class of over 400 students.
-            <br />I decided to further the project by creating an intuitive GUI,
-            implemented using wxWidgets, mainly for cross-platform support and
-            its good documentation.
+            <br />I decided to further the project by creating an intuitive GUI
+            implemented using wxWidgets, chosen for its cross-platform support
+            and beginner-friendly documentation.
           </p>
         }
       />
     </section>
   );
 }
-
-/*
-
-
-      <ProjectCard
-        projectGithub=""
-        projectIcon={crosswordgenIcon}
-        projectName="Crossword Gen"
-        projectDescription={
-          <>
-            <p>
-              Crossword Gen is a puzzle generation tool built in C++ using
-              recursive backtracking to efficiently create customizable
-              crossword grids. The algorithm itself was originally an assignment
-              from my CSCI 1200 Data Structures and Algorithm class, and in the
-              contest, my algorithm placed 90th percentile in a class of over
-              400 students.
-            </p>
-            <p>
-              I decided to further the project by creating an intuitive GUI,
-              implemented using wxWidgets, mainly for cross-platform support and
-              its good documentation.
-            </p>
-          </>
-        }
-      />
-*/
