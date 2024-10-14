@@ -4,7 +4,6 @@ import truthsiftIcon from "../../assets/truthsiftIcon.png";
 import chessalyzeIcon from "../../assets/chessalyzeIcon.png";
 import proofpressIcon from "../../assets/proofpressIcon.png";
 import crosswordgenIcon from "../../assets/crosswordgenIcon.png";
-import { Link } from "react-router-dom";
 
 export default function Projects() {
   const ProjectCard = ({
