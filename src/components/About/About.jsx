@@ -19,8 +19,8 @@ export default function About() {
           dual major in Computer Science and Mathematics. I have experience with
           full-stack web development using JavaScript libraries / frameworks.
           Recently, I&apos;ve shifted my focus towards machine learning and its
-          application in day-to-day life and. Currently building a project for
-          fake news detection. Find out more below!
+          application in day-to-day life. Currently building a project for fake
+          news detection. Find out more below!
         </p>
         <a href={derricklinResume} target="_blank">
           <button>Resume</button>

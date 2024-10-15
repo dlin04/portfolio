@@ -65,9 +65,8 @@ export default function Projects() {
             As a frequent player on Chess.com, I developed Chessalyze to offer a
             free alternative for game analysis. Chessalyze is a web application
             designed to simulate Chess.com&apos;s Game Review feature, which is
-            only free once-a-day. Here, users can pull their games from
-            Chess.com and analyze key moments, review move accuracy, and
-            identify mistakes and store these reviews.
+            only free once-a-day. Chessalyze also allows users to pull their
+            games from Chess.com and store these reviews.
             <br />I chose Next.js for this project due to its simplified routing
             capabilities, making it easier to manage the dynamic content and
             user interactions within the app.
@@ -108,12 +107,9 @@ export default function Projects() {
           <p className={styles.projectDescription}>
             Crossword Gen is a puzzle generation tool built in C++ using
             recursive backtracking to efficiently create customizable crossword
-            grids. The algorithm itself was originally an assignment from my
-            CSCI 1200 Data Structures and Algorithm class, and in the contest,
-            my algorithm placed 90th percentile in a class of over 400 students.
-            <br />I decided to further the project by creating an intuitive GUI
-            implemented using wxWidgets, chosen for its cross-platform support
-            and beginner-friendly documentation.
+            grids. I created an intuitive GUI implemented using wxWidgets,
+            chosen for its cross-platform support and beginner-friendly
+            documentation.
           </p>
         }
       />
