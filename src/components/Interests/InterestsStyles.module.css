@@ -8,12 +8,19 @@
   gap: 20px;
 
   .video {
-    width: 500px;
-    max-width: 100%;
+    width: 750px;
     margin: 0 auto;
   }
 
   .interestParagraph {
     max-width: 60ch;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    .video {
+      width: 600px;
+    }
   }
 }
