@@ -40,23 +40,6 @@ export default function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <ProjectCard
-        projectGithub="https://github.com/dlin04/truth_sift"
-        projectIcon={truthsiftIcon}
-        projectName="Truth Sift"
-        projectDescription={
-          <p className={styles.projectDescription}>
-            In light of the election year, Truth Sift aims to combat the spread
-            of misinformation by utilizing machine learning techniques for fake
-            news detection. This platform will analyze and classify news
-            articles, helping users identify credible sources and filter out
-            misleading content. I hope to begin this project as I add the
-            finishing touches to Chessalyze.
-            <br />
-            This is an upcoming project.
-          </p>
-        }
-      />
-      <ProjectCard
         projectGithub="https://github.com/dlin04/chessalyze"
         projectIcon={chessalyzeIcon}
         projectName="Chessalyze"
