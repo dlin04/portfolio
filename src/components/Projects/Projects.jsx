@@ -1,6 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
 import PropTypes from "prop-types";
-import truthsiftIcon from "../../assets/truthsiftIcon.png";
 import chessalyzeIcon from "../../assets/chessalyzeIcon.png";
 import proofpressIcon from "../../assets/proofpressIcon.png";
 import crosswordgenIcon from "../../assets/crosswordgenIcon.png";
