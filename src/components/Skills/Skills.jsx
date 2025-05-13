@@ -49,7 +49,7 @@ export default function Skills() {
         <SkillCard skillImage={nextIcon} skillName="Next" />
         <SkillCard skillImage={pythonIcon} skillName="Python" />
         <SkillCard skillImage={javaIcon} skillName="Java" />
-        <SkillCard skillImage={cplusplusIcon} skillName="C / C++" />
+        <SkillCard skillImage={cplusplusIcon} skillName="C++" />
       </div>
       <hr className={styles.secondHR} />
       <div className={styles.skillList}>

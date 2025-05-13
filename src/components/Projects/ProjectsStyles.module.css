@@ -21,7 +21,9 @@
 }
 
 .projectIcon {
-  max-width: 200px;
+  max-width: 175px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   background-color: white;
   border-radius: 20%;
   padding: 10px;

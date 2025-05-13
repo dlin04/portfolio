@@ -1,6 +1,6 @@
 import styles from "./AboutStyles.module.css";
 import profilePic from "../../assets/profilePic.png";
-import derricklinResume from "../../assets/derricklinResume.pdf";
+import Derrick_Lin_Resume from "../../assets/Derrick_Lin_Resume.pdf";
 
 export default function About() {
   return (
@@ -18,11 +18,9 @@ export default function About() {
           Hi! I&apos;m a junior at Rensselaer Polytechnic Institute, pursuing a
           dual major in Computer Science and Mathematics. I have experience with
           full-stack web development using JavaScript libraries / frameworks.
-          Recently, I&apos;ve shifted my focus towards machine learning and
-          artificial intelligence and its application in day-to-day life. Find
-          out more below!
+          Find out more below!
         </p>
-        <a href={derricklinResume} target="_blank">
+        <a href={Derrick_Lin_Resume} target="_blank">
           <button>Resume</button>
         </a>
       </div>
